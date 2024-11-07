@@ -22,4 +22,5 @@ Driving license varies from State to State in India. The text in the license var
 
 1. Download and install Tesseract. Also make sure to add it to the PATH variable to access in the terminal. You can follow a tutorial on youtube.
 2. Install all the required packages for running the project using `pip install -r requirements.txt`
-3. Run the project using `python route.py`
+3. Create an account in google developers and create a Gemini API key. After that set it as an environment variable in your system under the name `GEMINI_API_KEY`.
+4. Run the project using `python route.py`

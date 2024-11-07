@@ -8,7 +8,9 @@ import typing_extensions as typing
 from imagehandle import get_text
 app = Flask(__name__)
 CORS(app, origins="*")
-GEMINI_API_KEY="AIzaSyCilmpPEmh8SJalLKhKBD52C-5ox6jxinY"
+
+#api key for gemini
+GEMINI_API_KEY=os.environ.get('GEMINI_API_KEY')
 
 
 
